@@ -60,5 +60,6 @@
     cursor: pointer;
 }
 .pricing-card:hover {
-    padding: 40px 0;
+    height: 500px;
+    padding-top: 50px;
 }
