@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     padding: 12px 0;
-    width: 100%;
+    min-width: var(--minimal-width);
+    width: 100vw;
     background-color: white;
 }
 .container {
@@ -10,6 +11,7 @@
     width: 90%;
     align-items: center;
     justify-content: space-between;
+    padding: 0 30px;
 }
 .menu {
     display: flex;

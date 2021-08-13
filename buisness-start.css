@@ -10,6 +10,9 @@
     display: flex;
     justify-content: center;
 }
+.business .container {
+    height: 100vh;
+}
 .business-info {
     width: 50%;
     height: 100%;

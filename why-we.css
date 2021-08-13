@@ -1,0 +1,55 @@
+.why-we {
+    min-width: var(--minimal-width);
+    width: 100vw;
+    height: 80vh;
+    background-color: silver;
+    background: url(./images/4\ негр.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.why-we .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.why-we .container h1 {
+    font-size: 37px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 65px;
+    color: red;
+    margin-bottom: 40px;
+}
+.why-we .container h1 span {
+    font-size: 60px;
+    color: rgba(255, 0, 0, 0.418);
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+.cards {
+    display: flex;
+    gap: 40px;
+}
+.cards-1, .cards-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.card {
+    width: 600px;
+    height: 150px;
+    color: white;
+    background:linear-gradient(125deg, transparent 30px,red 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    border-top-left-radius: 10px;
+}
+    

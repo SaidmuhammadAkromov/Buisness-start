@@ -1,0 +1,64 @@
+.pricing {
+    height: 100vh;
+    width: 100vw;
+    min-width: var(--minimal-width);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.pricing h1 {
+    font-size: 37px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 65px;
+    color: red;
+}
+.pricing h1 span {
+    font-size: 60px;
+    color: rgba(255, 0, 0, 0.418);
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+.pricing-cards {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.pricing-card {
+    height: 450px;
+    width: 360px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s;
+}
+.pricing-card h2 {
+    color: black;
+    margin-top: 60px;
+}
+.pricing-card-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pricing-card button {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 100px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.pricing-card:hover {
+    padding: 40px 0;
+}
