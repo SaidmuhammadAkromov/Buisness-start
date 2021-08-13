@@ -1,0 +1,219 @@
+@media (max-width: 415px) {
+    /* header */
+    body {
+        min-width: 0;
+    }
+    *{
+        margin: 0;
+    }
+
+    .header {
+        min-width: 0;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburger {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 20px;
+        display: block;
+    }
+    .btn {
+        font-size: 0.5rem;
+    }
+
+    /* header */
+
+    /* business */
+    .business .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-block {
+        width: 100%;
+    }
+    .image-block img {
+        max-width: 100%;
+        position: relative;
+        display: block;
+        margin: 0px;
+    }
+    .business .container .business-info {
+        width: 100%;
+    }
+    .business-info h1{
+        margin: 0;
+    }
+    .business .container .business-info {
+        flex-direction: column;
+    }
+    .business-info, .image-block {
+        margin: 0px;
+    }
+    .image-block img {
+        width: 100%;
+        height: 100%;
+    }
+    .image-block {
+        width: 100%;
+    }
+    .eye-image {
+       display: none;
+    }
+    .horisontal-line {
+        display: none;
+    }
+    .business-title {
+        height: 80px;
+    }
+    .business-start {
+        flex-direction: column;
+    }
+    .creative-digital .info {
+        margin-left: 0px;
+    }
+    .dots {
+        display: none;
+    }
+    .business-title {
+        width: 100%;
+        height: 115px;
+    }
+    .business-title img {
+        width: 100%;
+    }
+    .buisness-start-image-block {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .buisness-start-image-block img {
+        width: 100%;
+    }
+    .business-info h1 {
+        display: none ;
+    }
+    .creative-digital h2 {
+        margin: 50px 0;
+    }
+    /* business */
+
+    /* about us */
+    .about-us {
+        margin-top: 100px;
+    }
+    .about-us-content {
+        flex-direction: column;
+    }
+    .about-us .image-block {
+        width: 100%;
+    }
+    .about-us .container .image-block img{
+        margin: 0;
+    }
+    .about-us-text {
+        margin: 0px;
+        width: 100%;
+    }
+    .dotted {
+        display: none;
+    }
+    /* about us */
+
+    /* why we */
+    .why-we{
+        margin-top: 40px;
+        min-width: 0;
+    }
+    .card {
+        height: 100px;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    /* why we */
+
+    /* our team */
+    .our-team {
+        min-width: 0;
+    }
+    .profile-card {
+        width: 80%;
+        top: 0;
+        left: 0;
+    }
+    .profile-card h3 {
+        font-size: 0.9rem;
+    }
+    .profile-card p {
+        margin: 0;
+        margin: 20px 20px 0 20px;
+    }
+    .our-team-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-team-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-team-content .image-block img {
+        width: 100%;
+        height: 100%;
+        margin: 0 !important;
+    }
+    .our-team-content .image-block {
+        margin: 40px;
+        width: 80%;
+        margin-top: 100px;
+
+    }
+    .change-buttons {
+        left: 140px;
+        bottom: -60px;
+    }
+    /* our team */
+
+    /* pricing */
+    .pricing {
+        min-width: 0;
+        margin-top: 200px;
+    }
+    .pricing-cards {
+        flex-direction: column;
+        width: 70%;
+    }
+    .pricing-card {
+        width: 100%;
+    }
+    .pricing-card h2 {
+        margin-top: 20px;
+    }
+    .pricing-card-content p{
+        margin: 0 20px;
+    }
+    /* pricing */
+
+    /* partners */
+    .partners {
+        min-width: 0;
+    }
+    .logos {
+        flex-direction: column;
+    }
+    .partners-content {
+        margin: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .partners-content img {
+        max-width: 100%;
+    }
+    .partners-text {
+        margin: 20px 50px;
+    }
+    /* partners */
+}

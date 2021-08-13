@@ -24,6 +24,8 @@
                 <button class="btn first">ВХОД</button>
                 <button class="btn">РЕГИСТРАЦИЯ</button>
             </ul>
+
+            <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
         </div>
     </header>
 
@@ -122,19 +124,21 @@
               </div>
         </div>
 
-        <div class="about-us">
+         <div class="about-us">
             <div class="container">
-                <div class="image-block">
-                    <div class="dotted"></div>
-                    <img src="./images/2 негр (2).png" width="600px" alt="">
-                </div>
-
-                <div class="about-us-text">
-                    <h2>ABOUT US <h1>ABOUT US</h1></h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, magni doloremque! Dolores possimus placeat provident delectus voluptate minus expedita libero laudantium modi quisquam unde sapiente explicabo, velit consectetur veniam voluptatibus.</p>
-                    <div class="dotted"></div>
-
-                    <a>Подробнее <i class="ri-arrow-right-s-line arrow"></i></a>
+                <h1>ABOUT US <span>ABOUTUS</span></h1>
+                <div class="about-us-content">
+                    <div class="image-block">
+                        <div class="dotted"></div>
+                        <img src="./images/2 негр (2).png" width="600px" alt="">
+                    </div>
+    
+                    <div class="about-us-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, magni doloremque! Dolores possimus placeat provident delectus voluptate minus expedita libero laudantium modi quisquam unde sapiente explicabo, velit consectetur veniam voluptatibus.</p>
+                        <div class="dotted"></div>
+    
+                        <a>Подробнее <i class="ri-arrow-right-s-line arrow"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,7 +167,6 @@
                 <div class="our-team-card">
                     <div class="profile-card">
                         <div class="image">
-                            <!-- <img src="./images/2 негр (2).png" alt=""> -->
                         </div>
                         <h3>ПЕРЕХОДИТЕ К СЛЕДУЙЩЕМУ УРОКУ</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic possimus sequi harum earum incidunt tempora deserunt odit architecto optio exercitationem?</p>
@@ -278,7 +281,9 @@
 
     <script>
         var slideIndex = 1;
-        showSlides(); 
+        // showSlides(); 
+        var slides = document.getElementsByClassName("mySlides");
+        slides[slideIndex-1].style.display = "block";  
         function showSlides() {
             var i;
             var slides = document.getElementsByClassName("mySlides");

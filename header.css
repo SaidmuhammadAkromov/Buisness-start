@@ -5,6 +5,7 @@
     min-width: var(--minimal-width);
     width: 100vw;
     background-color: white;
+    position: relative;
 }
 .container {
     display: flex;
@@ -29,4 +30,7 @@
 }
 .first {
     margin: 0 30px 0 0;
+}
+.hamburger {
+    display: none;
 }
